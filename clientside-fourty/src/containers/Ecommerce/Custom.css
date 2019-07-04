@@ -1,0 +1,107 @@
+/* .card:hover {
+    transform: scale(0.95, 0.95);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  } */
+
+.card {
+  margin-bottom: 5px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.card:hover {
+  margin: 7px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-transition: 200ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.formBox {
+  border: 1px solid #dbdbdb;
+  border-radius: 0.5rem !important;
+  margin-bottom: 1rem;
+  min-width: 300px;
+}
+
+.formHead {
+  border-radius: 0.5rem 0.5rem 0 0 !important;
+  padding: 0.8rem 0 0.01rem 1rem !important;
+  background-color: rgb(97, 204, 253);
+  color: #fff;
+  text-align: left;
+  width: inherit;
+  margin-bottom: 10px
+}
+
+.formBody {
+  padding: 1rem 1rem 1rem 1rem !important;
+  border-radius: 0 0 0.5rem 0.5rem !important;
+  background-color: #fdfdfd;
+  align-items: center;
+  text-align: right
+}
+
+.col-label {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  margin-left: 5px;
+}
+
+.col-form {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  margin-left: 5px;
+  min-width: 800px;
+  max-width: 1200px;
+  width: 1050px
+}
+
+input {
+  border: 1px solid #dbdbdb;
+  margin: 0;
+  font-family: inherit;
+  overflow: visible;
+  display: block;
+  width: inherit;
+  height: calc(.75em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.item-photo {
+  /* width: 400px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #e42929; */
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.detail-photo {
+  object-fit: 'cover';
+  width: 150%;
+  
+}
+
+.content-photo {
+  width: 650px;
+  display: flex;
+  margin: 1rem 1rem 1rem 1rem;
+  /* border: 1px solid #e42929; */
+}
